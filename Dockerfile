@@ -7,7 +7,7 @@ USER flutterDeveloper
 WORKDIR /home/flutterDeveloper
 
 RUN mkdir -p Android/sdk
-ENV ANDROID_SDK_ROOT /home/developer/Android/sdk
+ENV ANDROID_SDK_ROOT /home/flutterDeveloper/Android/sdk
 RUN mkdir -p .android && touch .android/repositories.cfg
 
 RUN wget -O sdk-tools.zip https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip
